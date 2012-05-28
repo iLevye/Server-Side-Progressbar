@@ -1,0 +1,103 @@
+﻿body {
+	text-align: center;
+	font-family: Tahoma;
+	background-image:url('images/bg.gif');
+	background-repeat:repeat-x;
+}
+h1 {
+	color: #666;
+	font-family: Tahoma;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 8px;
+}
+
+h2 {
+	color: #666;
+	font-family: Tahoma;
+	font-size: 15px;
+	font-weight: normal;
+	margin: 0px;
+	padding: 5px;
+}
+.idzaki_pb {
+	margin: 0 auto;
+	width: 500px;
+	height: 18px;
+	border: 1px #c5cacd solid;
+	background-image: url('images/empty_bg.gif');
+	-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+
+}
+.idzaki_pb_completed{
+	float: left;
+	height: 18px;
+	-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+
+}
+
+.pb_blue{
+	background-image: url('images/blue_bg.gif');
+}
+.pb_red {
+	background-image: url('images/red_bg.gif');
+}
+.pb_yellow {
+	background-image: url('images/yellow_bg.gif');
+}
+.pb_green {
+	background-image: url('images/green_bg.gif');
+}
+
+
+
+.content{
+	margin:10px auto;
+	width:500px;
+	height:auto;
+	text-align:center;	
+}
+
+.idzaki_btn{
+background: #FA2 url('images/btn_bg.png') repeat-x 0 0;
+width:150px;
+padding: 8px 20px;
+border: 1px solid #FA2;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+text-decoration: none;
+text-align: center;
+color: #333;
+text-shadow: 0 1px 0 #FE6;
+font: bold 18px Arial,Sans-serif;
+
+}
+
+.idzaki_btn:hover, .idzaki_btn:focus {
+background-position: 0 -5px;
+color: #111;
+}
+
+.log_area{
+	padding:10px;
+	margin:0px;
+	text-align:left;
+	overflow:auto;
+	border: 1px #c5cacd solid;
+	width:478px;
+	height:100px;
+	font-family:Tahoma;
+	font-size:12px;
+	line-height:20px;
+	color:#808080;
+	-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+
+}
